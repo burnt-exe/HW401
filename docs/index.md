@@ -4,264 +4,468 @@
 
 <div align="center">
 
-![Course](https://img.shields.io/badge/Course-HW401-0f62fe?style=for-the-badge)
-![Domain](https://img.shields.io/badge/Focus-Fifth%20Domain-8a3ffc?style=for-the-badge)
-![Docs](https://img.shields.io/badge/Documentation-Live-24a148?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Expanding-fa4d56?style=for-the-badge)
+![Course](https://img.shields.io/badge/course-hw401-0f62fe?style=for-the-badge)
+![Focus](https://img.shields.io/badge/focus-fifth%20domain-8a3ffc?style=for-the-badge)
+![Docs](https://img.shields.io/badge/documentation-live-24a148?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-expanding-fa4d56?style=for-the-badge)
+![Maintained](https://img.shields.io/badge/maintained-yes-198038?style=for-the-badge)
+![Repo Convention](https://img.shields.io/badge/paths-lowercase-f1c21b?style=for-the-badge)
 
 </div>
-
----
-
-
-> **Naming convention:** all documentation filenames and page links should use lowercase for cleaner GitHub paths and consistency across the repo.
-
----
-
-## Mission Snapshot
-
-HW401 explores how cyber operations generate **strategic**, **operational**, and **cognitive** effects across modern conflict environments. This documentation hub is the main navigation layer for course material, instructor resources, student guidance, frameworks, case studies, and repository operations.
-
-### What this hub gives you
-- Fast access to **course structure**
-- Curated entry points for **instructors** and **students**
-- Core **frameworks** for explaining the fifth domain
-- Expandable **case-study pathways**
-- Clean navigation for **repo contributors**
-
----
-
-## Quick Navigation
-
-| Area | Purpose | Go |
-|---|---|---|
-| **Course** | Core structure, outcomes, assessment | [Open Course Docs](#course) |
-| **Frameworks** | Conceptual models and theory | [Open Frameworks](#frameworks) |
-| **Instructor** | Facilitation, demos, delivery support | [Open Instructor Docs](#instructor) |
-| **Student** | Learning support and study guidance | [Open Student Docs](#student) |
-| **References** | Glossary, reading, case-study register | [Open References](#references) |
-| **Case Studies** | Applied cyber conflict examples | [Open Case Studies](#case-studies) |
-| **Repository Ops** | Contribution and documentation standards | [Open Repo Operations](#repository-operations) |
-
----
-
-## Visual Course Map
-
-```mermaid
-flowchart TD
-    A[HW401 Documentation Hub] --> B[Course]
-    A --> C[Frameworks]
-    A --> D[Instructor]
-    A --> E[Student]
-    A --> F[References]
-    A --> G[Case Studies]
-    A --> H[Repository Operations]
-
-    B --> B1[Course Overview]
-    B --> B2[Module Outline]
-    B --> B3[Learning Outcomes]
-    B --> B4[Assessment Strategy]
-
-    C --> C1[Cognitive Domain Framework]
-    C --> C2[Dimensions of Cyberspace]
-    C --> C3[Information Dominance Model]
-    C --> C4[Decision-Loop Disruption]
-    C --> C5[Influence Propagation]
-
-    D --> D1[Instructor Guide]
-    D --> D2[Facilitation Playbook]
-    D --> D3[Live Demo Guide]
-    D --> D4[Slide Transcript Strategy]
-
-    E --> E1[Student Guide]
-    E --> E2[Study Guide]
-    E --> E3[Discussion Prompts]
-
-    F --> F1[Glossary]
-    F --> F2[Reading List]
-    F --> F3[Case Study Register]
-
-    G --> G1[Stuxnet]
-    G --> G2[NotPetya]
-    G --> G3[Ukraine Power Grid]
-    G --> G4[SolarWinds]
-    G --> G5[Colonial Pipeline]
-    G --> G6[Shamoon]
-    G --> G7[BlackEnergy]
-    G --> G8[Industroyer]
-    G --> G9[WannaCry]
-    G --> G10[Moonlight Maze]
-
-    H --> H1[Contributing]
-    H --> H2[Documentation Style Guide]
-    H --> H3[Roadmap]
-    H --> H4[Repository Conventions]
-    H --> H5[Pull Request Template]
-```
-
----
-
-## Course
-
-<table>
-<tr>
-<td width="50%">
-
-### Foundation
-- [Course Overview](course/course-overview.md)
-- [Module Outline](course/module-outline.md)
-
-</td>
-<td width="50%">
-
-### Performance
-- [Learning Outcomes](course/learning-outcomes.md)
-- [Assessment Strategy](course/assessment-strategy.md)
-
-</td>
-</tr>
-</table>
-
-> **Best starting point:** Begin with **Course Overview**, then move to **Module Outline** before diving into the frameworks.
-
----
-
-## Frameworks
-
-These pages provide the conceptual architecture for the course.
-
-- [Cognitive Domain Framework](frameworks/cognitive-domain-framework.md)
-- [Dimensions of Cyberspace](frameworks/dimensions-of-cyberspace.md)
-- [Information Dominance Model](frameworks/information-dominance-model.md)
-- [Decision-Loop Disruption](frameworks/decision-loop-disruption.md)
-- [Influence Propagation](frameworks/influence-propagation.md)
-
-<details>
-<summary><strong>Why these frameworks matter</strong></summary>
-
-These models help connect:
-- cyber activity to decision advantage
-- data manipulation to cognitive effect
-- infrastructure disruption to strategic messaging
-- information operations to real-world operational outcomes
-
-</details>
-
----
-
-## Instructor
-
-Designed for facilitation, delivery flow, discussion depth, and live demonstration support.
-
-- [Instructor Guide](instructor/instructor-guide.md)
-- [Facilitation Playbook](instructor/facilitation-playbook.md)
-- [Live Demo and Browsing Guide](instructor/live-demo-browsing-guide.md)
-- [Slide Transcript Strategy](instructor/slide-transcript-strategy.md)
-
-<details>
-<summary><strong>Recommended instructor workflow</strong></summary>
-
-1. Review the **Module Outline**
-2. Read the related **Frameworks**
-3. Use the **Instructor Guide** for delivery flow
-4. Pull in live examples from the **Demo and Browsing Guide**
-5. Use **Slide Transcript Strategy** to standardize talk tracks
-
-</details>
-
----
-
-## Student
-
-Built to support comprehension, revision, reflection, and discussion.
-
-- [Student Guide](student/student-guide.md)
-- [Study Guide](student/study-guide.md)
-- [Discussion Prompts](student/discussion-prompts.md)
-
-> **Student path:** Start with the **Student Guide**, reinforce understanding through the **Study Guide**, and deepen analysis through **Discussion Prompts**.
-
----
-
-## References
-
-Use these pages to anchor terminology, source material, and case-study navigation.
-
-- [Glossary](references/glossary.md)
-- [Reading List](references/reading-list.md)
-- [Case Study Register](references/case-study-register.md)
-
----
-
-## Case Studies
-
-### Core Case Studies
-- [STUXNET](case-studies/stuxnet.md)
-- [NOTPETYA](case-studies/notpetya.md)
-- [UKRAINE POWER GRID](case-studies/ukraine-power-grid.md)
-- [SOLARWINDS](case-studies/solarwinds.md)
-- [COLONIAL PIPELINE](case-studies/colonial-pipeline.md)
-
-### Expanded Case Studies
-- [SHAMOON](case-studies/shamoon.md)
-- [BLACKENERGY](case-studies/blackenergy.md)
-- [INDUSTROYER](case-studies/industroyer.md)
-- [WANNACRY](case-studies/wannacry.md)
-- [MOONLIGHT MAZE](case-studies/moonlight-maze.md)
-
-<details>
-<summary><strong>Suggested teaching sequence</strong></summary>
-
-- Start with **Moonlight Maze** for cyber espionage foundations
-- Move to **Stuxnet** for cyber-physical effect
-- Use **Ukraine Power Grid**, **BlackEnergy**, and **Industroyer** for infrastructure disruption
-- Use **WannaCry** and **NotPetya** for scale and systemic disruption
-- Use **SolarWinds** for supply-chain compromise
-- Use **Colonial Pipeline** for operational dependence and business continuity
-- Use **Shamoon** for destructive wiper logic
-
-</details>
-
----
-
-## Repository Operations
-
-For contributors, maintainers, and documentation builders.
-
-- [Contributing Guide](repo/contributing.md)
-- [Documentation Style Guide](repo/documentation-style-guide.md)
-- [Roadmap](repo/roadmap.md)
-- [Repository Conventions](repo/repository-conventions.md)
-- [Pull Request Template](repo/pull-request-template.md)
-
----
-
-## Suggested Additions
-
-To make this hub even stronger, the next recommended docs are:
-
-- `TALLINN-MANUAL.md`
-- `CYBER-DETERRENCE.md`
-- `OODA-IN-CYBER.md`
-- `ICS-vs-IT.md`
-- `DISINFORMATION-OPERATIONS.md`
-
----
-
-## Maintainer Notes
-
-This page is designed to function as a **professional landing page** for the documentation set. It uses:
-
-- shield badges for visual hierarchy
-- a Mermaid diagram for graphical structure
-- tables for clean sectional layout
-- expandable sections for a more interactive reading experience
-- guided pathways for instructors and students
 
 ---
 
 <div align="center">
 
-**HW401 · Documentation Hub · Fifth Domain Studies**
+## Strategic Documentation for Cyber Conflict Education
+
+A structured course and reference hub for exploring cyber warfare, information operations, state and non-state campaigns, critical infrastructure disruption, and cognitive-domain conflict.
 
 </div>
+
+---
+
+## Overview
+
+**HW401** is a course documentation and teaching repository focused on the **fifth domain of warfare**: cyberspace as a strategic battlespace. The material connects technical cyber activity with operational outcomes, strategic signaling, influence operations, and decision advantage.
+
+This hub acts as the primary entry point for:
+
+- course navigation
+- instructional delivery
+- student study support
+- conceptual frameworks
+- applied case studies
+- repository standards
+
+---
+
+## Repository Design Principles
+
+> **Naming convention:** all documentation filenames, folders, and page links should use **lowercase** for consistency, portability, and cleaner GitHub paths.
+
+### This hub is designed to be:
+- **Readable** for students and instructors
+- **Scalable** as more modules and cases are added
+- **Contributor-friendly** for repo maintainers
+- **Presentation-ready** for live delivery and training use
+- **GitHub-native** with clean relative linking and structured navigation
+
+---
+
+## Fast Access Navigation
+
+| Section | Description | Entry Point |
+|---|---|---|
+| **course** | Learning structure, outcomes, and assessment | [open course docs](#course) |
+| **frameworks** | Conceptual models for fifth-domain conflict | [open frameworks](#frameworks) |
+| **instructor** | Delivery guides, facilitation, demos, transcripts | [open instructor docs](#instructor) |
+| **student** | Study guidance, revision, and discussion support | [open student docs](#student) |
+| **references** | Glossary, reading list, and case-study register | [open references](#references) |
+| **case studies** | Applied cyber conflict examples and incident analysis | [open case studies](#case-studies) |
+| **repository operations** | Contribution standards and repo maintenance | [open repo operations](#repository-operations) |
+
+---
+
+## Documentation Architecture
+
+```mermaid
+flowchart TD
+    A[hw401 documentation hub] --> B[course]
+    A --> C[frameworks]
+    A --> D[instructor]
+    A --> E[student]
+    A --> F[references]
+    A --> G[case studies]
+    A --> H[repository operations]
+
+    B --> B1[course overview]
+    B --> B2[module outline]
+    B --> B3[learning outcomes]
+    B --> B4[assessment strategy]
+
+    C --> C1[cognitive domain framework]
+    C --> C2[dimensions of cyberspace]
+    C --> C3[information dominance model]
+    C --> C4[decision-loop disruption]
+    C --> C5[influence propagation]
+
+    D --> D1[instructor guide]
+    D --> D2[facilitation playbook]
+    D --> D3[live demo and browsing guide]
+    D --> D4[slide transcript strategy]
+
+    E --> E1[student guide]
+    E --> E2[study guide]
+    E --> E3[discussion prompts]
+
+    F --> F1[glossary]
+    F --> F2[reading list]
+    F --> F3[case study register]
+
+    G --> G1[stuxnet]
+    G --> G2[notpetya]
+    G --> G3[ukraine power grid]
+    G --> G4[solarwinds]
+    G --> G5[colonial pipeline]
+    G --> G6[shamoon]
+    G --> G7[blackenergy]
+    G --> G8[industroyer]
+    G --> G9[wannacry]
+    G --> G10[moonlight maze]
+
+    H --> H1[contributing]
+    H --> H2[documentation style guide]
+    H --> H3[roadmap]
+    H --> H4[repository conventions]
+    H --> H5[pull request template]
+```
+
+---
+
+## Mission Snapshot
+
+HW401 examines how cyber operations create:
+
+* **strategic effects** through coercion, signaling, and geopolitical influence
+* **operational effects** through service disruption, intelligence gain, and mission degradation
+* **cognitive effects** through manipulation of perception, trust, speed, and decision-making
+* **infrastructure effects** through compromise of ICS, OT, utilities, logistics, and supply chains
+
+### What this hub enables
+
+* rapid access to course material
+* structured teaching flow for instructors
+* guided study paths for learners
+* reusable models for explaining cyber conflict
+* expandable case-study sequencing
+* maintainable documentation standards for contributors
+
+---
+
+# Course
+
+<div align="center">
+
+## Core Learning Structure
+
+</div>
+
+| Foundation                                   | Purpose                                                     |
+| -------------------------------------------- | ----------------------------------------------------------- |
+| [course overview](course/course-overview.md) | Introduces scope, positioning, and rationale for the course |
+| [module outline](course/module-outline.md)   | Breaks the course into teachable thematic units             |
+
+| Performance                                          | Purpose                                                               |
+| ---------------------------------------------------- | --------------------------------------------------------------------- |
+| [learning outcomes](course/learning-outcomes.md)     | Defines measurable learning expectations                              |
+| [assessment strategy](course/assessment-strategy.md) | Explains evaluation logic, evidence, and learner performance criteria |
+
+> **Recommended starting path:** begin with **course overview**, continue to **module outline**, then use the frameworks section to support deeper conceptual teaching.
+
+---
+
+# Frameworks
+
+<div align="center">
+
+## Conceptual Models for the Fifth Domain
+
+</div>
+
+These pages provide the theoretical backbone of the course and help connect tactical cyber actions to higher-level military, political, and cognitive outcomes.
+
+* [cognitive domain framework](frameworks/cognitive-domain-framework.md)
+* [dimensions of cyberspace](frameworks/dimensions-of-cyberspace.md)
+* [information dominance model](frameworks/information-dominance-model.md)
+* [decision-loop disruption](frameworks/decision-loop-disruption.md)
+* [influence propagation](frameworks/influence-propagation.md)
+
+<details>
+<summary><strong>why these frameworks matter</strong></summary>
+
+These frameworks help explain how:
+
+* technical compromise becomes operational leverage
+* information control influences human judgment
+* cyber disruption affects tempo, trust, and command quality
+* perception management alters strategic outcomes
+* digital actions extend beyond networks into cognition and behavior
+
+</details>
+
+---
+
+# Instructor
+
+<div align="center">
+
+## Facilitation and Delivery Toolkit
+
+</div>
+
+Built for course facilitators, trainers, and documentation authors who need structured delivery support.
+
+* [instructor guide](instructor/instructor-guide.md)
+* [facilitation playbook](instructor/facilitation-playbook.md)
+* [live demo and browsing guide](instructor/live-demo-browsing-guide.md)
+* [slide transcript strategy](instructor/slide-transcript-strategy.md)
+
+### Recommended instructor workflow
+
+1. Read the [module outline](course/module-outline.md)
+2. Review the matching pages under [frameworks](#frameworks)
+3. Use the [instructor guide](instructor/instructor-guide.md) to shape session flow
+4. Pull current examples from the [live demo and browsing guide](instructor/live-demo-browsing-guide.md)
+5. Standardize narration using the [slide transcript strategy](instructor/slide-transcript-strategy.md)
+
+<details>
+<summary><strong>instructor focus areas</strong></summary>
+
+A strong instructor experience in HW401 should emphasize:
+
+* strategic framing, not just technical events
+* case comparison across espionage, disruption, influence, and sabotage
+* cognitive effects such as hesitation, misperception, panic, and trust erosion
+* the relationship between cyber operations and real-world organizational dependency
+* disciplined use of terminology across military, policy, and cybersecurity contexts
+
+</details>
+
+---
+
+# Student
+
+<div align="center">
+
+## Study, Reflection, and Discussion Support
+
+</div>
+
+Built to reinforce understanding, enable revision, and support structured discussion.
+
+* [student guide](student/student-guide.md)
+* [study guide](student/study-guide.md)
+* [discussion prompts](student/discussion-prompts.md)
+
+### Recommended student learning path
+
+1. Start with the [student guide](student/student-guide.md)
+2. Consolidate concepts using the [study guide](student/study-guide.md)
+3. Deepen analysis through [discussion prompts](student/discussion-prompts.md)
+4. Cross-reference concepts with the [glossary](references/glossary.md)
+5. Apply theory using the [case studies](#case-studies)
+
+---
+
+# References
+
+<div align="center">
+
+## Terminology, Reading, and Evidence Support
+
+</div>
+
+Use these pages to anchor terminology, source material, and structured case-study discovery.
+
+* [glossary](references/glossary.md)
+* [reading list](references/reading-list.md)
+* [case study register](references/case-study-register.md)
+
+### Reference use cases
+
+| Resource                | Best Use                                               |
+| ----------------------- | ------------------------------------------------------ |
+| **glossary**            | Standardize terminology across lessons and submissions |
+| **reading list**        | Extend theory and support academic grounding           |
+| **case study register** | Track incidents, patterns, and teaching relevance      |
+
+---
+
+# Case Studies
+
+<div align="center">
+
+## Applied Cyber Conflict Analysis
+
+</div>
+
+These case studies connect abstract concepts to real-world incidents across espionage, critical infrastructure disruption, destructive malware, ransomware, and supply-chain compromise.
+
+## Core Case Studies
+
+| Case                   | Primary Focus                                    | Link                                       |
+| ---------------------- | ------------------------------------------------ | ------------------------------------------ |
+| **stuxnet**            | cyber-physical sabotage                          | [open](case-studies/stuxnet.md)            |
+| **notpetya**           | systemic disruption and destructive propagation  | [open](case-studies/notpetya.md)           |
+| **ukraine power grid** | infrastructure disruption and power operations   | [open](case-studies/ukraine-power-grid.md) |
+| **solarwinds**         | supply-chain compromise and stealth access       | [open](case-studies/solarwinds.md)         |
+| **colonial pipeline**  | business interruption and operational dependency | [open](case-studies/colonial-pipeline.md)  |
+
+## Expanded Case Studies
+
+| Case               | Primary Focus                         | Link                                   |
+| ------------------ | ------------------------------------- | -------------------------------------- |
+| **shamoon**        | destructive wiper operations          | [open](case-studies/shamoon.md)        |
+| **blackenergy**    | intrusion and grid-related operations | [open](case-studies/blackenergy.md)    |
+| **industroyer**    | ICS-targeted disruption               | [open](case-studies/industroyer.md)    |
+| **wannacry**       | ransomware at global scale            | [open](case-studies/wannacry.md)       |
+| **moonlight maze** | long-term strategic espionage         | [open](case-studies/moonlight-maze.md) |
+
+<details>
+<summary><strong>suggested teaching sequence</strong></summary>
+
+A strong sequence for instructional progression is:
+
+1. **moonlight maze** for early cyber espionage foundations
+2. **stuxnet** for cyber-physical effect and covert sabotage
+3. **ukraine power grid**, **blackenergy**, and **industroyer** for infrastructure disruption
+4. **wannacry** and **notpetya** for scale, spread, and systemic consequence
+5. **solarwinds** for supply-chain access and strategic stealth
+6. **colonial pipeline** for operational dependency and business continuity
+7. **shamoon** for destructive intent and organizational paralysis
+
+</details>
+
+---
+
+# Repository Operations
+
+<div align="center">
+
+## Standards for Maintainers and Contributors
+
+</div>
+
+These pages support repo consistency, collaboration, and controlled documentation growth.
+
+* [contributing guide](repo/contributing.md)
+* [documentation style guide](repo/documentation-style-guide.md)
+* [roadmap](repo/roadmap.md)
+* [repository conventions](repo/repository-conventions.md)
+* [pull request template](repo/pull-request-template.md)
+
+### Repository rules at a glance
+
+| Rule          | Standard                               |
+| ------------- | -------------------------------------- |
+| filenames     | lowercase only                         |
+| links         | lowercase relative paths               |
+| page style    | consistent heading hierarchy           |
+| structure     | predictable section ordering           |
+| case studies  | use common analysis template           |
+| pull requests | include summary, rationale, and impact |
+
+---
+
+# Suggested Next Additions
+
+To strengthen the hub and deepen the strategic framing of the course, the next recommended pages are:
+
+* [tallinn manual](frameworks/tallinn-manual.md)
+* [cyber deterrence](frameworks/cyber-deterrence.md)
+* [ooda in cyber](frameworks/ooda-in-cyber.md)
+* [ics vs it](frameworks/ics-vs-it.md)
+* [disinformation operations](frameworks/disinformation-operations.md)
+
+> These additions would improve the bridge between legal interpretation, deterrence theory, operational tempo, infrastructure context, and information influence.
+
+---
+
+# Recommended Future Enhancements
+
+## Navigation Enhancements
+
+* add a top-level **table of contents**
+* add **back-to-hub** links inside every document
+* add **previous / next** navigation between case studies
+* add **module tags** or **topic labels** for cross-linking
+
+## Content Enhancements
+
+* standardize all case studies with:
+
+  * overview
+  * timeline
+  * actors
+  * methods
+  * effects
+  * strategic implications
+  * cognitive implications
+  * instructor notes
+* add visual comparison matrices across incidents
+* add learner self-check or reflection prompts at the end of major pages
+
+## Repo Experience Enhancements
+
+* add a docs-only GitHub Actions workflow for:
+
+  * lowercase filename enforcement
+  * broken link checking
+  * markdown linting
+  * Mermaid validation where possible
+* add badges for:
+
+  * link health
+  * docs lint
+  * last updated
+  * contribution readiness
+
+---
+
+# Maintainer Notes
+
+This page is intended to serve as a **professional documentation landing page** for the HW401 repository.
+
+It uses:
+
+* badge-driven visual hierarchy
+* structured sectioning
+* Mermaid-based architecture mapping
+* tables for clean navigation
+* expandable sections for progressive disclosure
+* guided pathways for instructors and students
+* contributor-aware standards for long-term maintainability
+
+---
+
+## Quick Start Paths
+
+### For instructors
+
+Read:
+
+1. [course overview](course/course-overview.md)
+2. [module outline](course/module-outline.md)
+3. [cognitive domain framework](frameworks/cognitive-domain-framework.md)
+4. [instructor guide](instructor/instructor-guide.md)
+
+### For students
+
+Read:
+
+1. [student guide](student/student-guide.md)
+2. [study guide](student/study-guide.md)
+3. [glossary](references/glossary.md)
+4. one case study from [case studies](#case-studies)
+
+### For contributors
+
+Read:
+
+1. [contributing guide](repo/contributing.md)
+2. [documentation style guide](repo/documentation-style-guide.md)
+3. [repository conventions](repo/repository-conventions.md)
+
+---
+
+<div align="center">
+
+## HW401 · documentation hub · fifth domain studies
+
+**structured learning · strategic cyber conflict · applied case analysis**
+
+</div>
+```
+
+I can also generate a **premium GitHub README version with a clickable table of contents and a case-study matrix**.
